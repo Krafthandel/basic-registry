@@ -14,10 +14,10 @@ storage:
   filesystem:
     rootdirectory: /var/lib/registry
 http:
-  host: https://127.0.0.1:5000
-  addr: 0.0.0.0:5000
+  host: https://127.0.0.1:5002
+  addr: 0.0.0.0:5002
   debug:
-    addr: 0.0.0.0:5001
+    addr: 0.0.0.0:5003
   secret: notasecret123
   tls:
     certificate: /certs/registry.crt
